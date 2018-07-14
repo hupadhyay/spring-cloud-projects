@@ -1,0 +1,54 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### LIMIT-SERVICE ###
+limit-service/target
+limit-service/.apt_generated
+limit-service/.classpath
+limit-service/.factorypath
+limit-service/.project
+limit-service/.settings
+limit-service/.springBeans
+limit-service/.sts4-cache
+
+
+### Spring-Cloud-Config-Server ###
+sprint-cloud-config-server/target
+sprint-cloud-config-server/.apt_generated
+sprint-cloud-config-server/.classpath
+sprint-cloud-config-server/.factorypath
+sprint-cloud-config-server/.project
+sprint-cloud-config-server/.settings
+sprint-cloud-config-server/.springBeans
+sprint-cloud-config-server/.sts4-cache
+
+### Currency-Exchange-Service ###
+currency-exchange-service/target
+currency-exchange-service/.apt_generated
+currency-exchange-service/.classpath
+currency-exchange-service/.factorypath
+currency-exchange-service/.project
+currency-exchange-service/.settings
+currency-exchange-service/.springBeans
+currency-exchange-service/.sts4-cache
+
+### Currency-Conversion-Service ###
+currency-conversion-service/target
+currency-conversion-service/.apt_generated
+currency-conversion-service/.classpath
+currency-conversion-service/.factorypath
+currency-conversion-service/.project
+currency-conversion-service/.settings
+currency-conversion-service/.springBeans
+currency-conversion-service/.sts4-cache
+
+### eureka-naming-server ###
+eureka-naming-server/target
+eureka-naming-server/.apt_generated
+eureka-naming-server/.classpath
+eureka-naming-server/.factorypath
+eureka-naming-server/.project
+eureka-naming-server/.settings
+eureka-naming-server/.springBeans
+eureka-naming-server/.sts4-cache
+
