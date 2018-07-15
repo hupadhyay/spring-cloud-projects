@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +20,8 @@ import in.himtech.cloud.currencyconversionservice.domain.CurrencyConversion;
 @RestController
 @RequestMapping(path="currency-conversion")
 public class CurrencyConversionController {
+	
+	private Logger logger = LoggerFactory.getLogger(CurrencyConversionController.class);
 	
 	@Autowired
 	private RestClientProxy restClient;
@@ -46,6 +50,8 @@ public class CurrencyConversionController {
 		CurrencyConversion cc = restClient.getCurrencyExchangeValue(from, to);
 		cc.setQuantity(quantity);
 		cc.setConversionValue(cc.getMultiple().multiply(BigDecimal.valueOf(quantity)));
+		
+		logger.info("Response from CurrencyConversion: {}", cc);
 		
 		return cc;
 	}
