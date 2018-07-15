@@ -52,3 +52,13 @@ eureka-naming-server/.settings
 eureka-naming-server/.springBeans
 eureka-naming-server/.sts4-cache
 
+### zuul-api-gateway-service ###
+zuul-api-gateway-service/target
+zuul-api-gateway-service/.apt_generated
+zuul-api-gateway-service/.classpath
+zuul-api-gateway-service/.factorypath
+zuul-api-gateway-service/.project
+zuul-api-gateway-service/.settings
+zuul-api-gateway-service/.springBeans
+zuul-api-gateway-service/.sts4-cache
+
